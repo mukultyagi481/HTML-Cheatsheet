@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="prism.css">
+    <script src="prism.js"></script>
+    <title>
+        HTML5 CheatSheet by Mukul Tyagi
+    </title>
+</head>
+
+<body>
+    <nav>
+        <span class="logo"><img src="img.jpeg" alt=" "> </span>
+        <div class="content center">
+
+            This HTML CheatSheet is For You!
+        </div> 
+    </nav>
+    <div class="container">
+        <ol>
+            <li>
+                HTML Boilerplate
+                <pre class="language-html">
+<code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;
+
+    &lt;/title&gt;
+&lt;/head&gt;
+&lt;/html&gt;
+</code></pre>
+            </li>
+            <li>
+                Head tag: Head tag is used to contain all the head element in the html file. It contains the title, style, meta, … etc tag.
+                <pre class="language-html"><code>&lt;head&gt;Contains elements describing the document&lt;/head&gt;
+                </code></pre>
+            </li >
+            <li>
+                Body tag: It is used to define the body of html document. It contains image, tables, lists, … etc.
+                <pre class="language-html"><code>&lt;body&gt;The content of your HTML page&lt;/body&gt;
+                </code></pre>
+            </li >
+            <li>
+                Title tag: It is used to define the title of html document.
+                <pre class="language-html"><code>&lt;title&gt;tab name&lt;/title&gt;
+                </code></pre>
+            </li >
+            <li>
+                Heading tag: It is used to define the heading of html document.
+                <pre class="language-html"><code>&lt;h1&gt;Heading 1 &lt;/h1&gt;
+&lt;h2&gt;Heading 2 &lt;/h2&gt;
+&lt;h3&gt;Heading 3 &lt;/h3&gt;
+&lt;h4&gt;Heading 4 &lt;/h4&gt;
+&lt;h5&gt;Heading 5 &lt;/h5&gt;
+&lt;h6&gt;Heading 6 &lt;/h6&gt;
+                    </code></pre>
+            </li >
+            <li>
+                Paragraph tag: It is used to define paragraph content in html document.
+                <pre class="language-html"><code>&lt;p&gt;Example: Computer science portal&lt;/p&gt;
+                </code></pre>
+            </li >
+            <li>
+                Emphasis tag: It is used to renders as emphasized text.
+                <pre class="language-html"><code>&lt;em&gt;Example&lt;/em&gt;
+                </code></pre>
+            </li >
+            <li>
+                Bold tag: It is used to specify bold content in html document.
+                <pre class="language-html"><code>&lt;b&gt;Bold word&lt;/b&gt;
+                </code></pre>
+            </li >
+            <li>
+                Italic tag: It is used to write the content in italic format.
+                <pre class="language-html"><code>&lt;i&gt;Example&lt;/i&gt;
+                </code></pre>
+            </li >
+            <li>
+                Small (text) tag: It is used to set the small font size of the content.
+                <pre class="language-html"><code>&lt;small&gt;Example&lt;/small&gt;
+                </code></pre>
+            </li >
+            <li>
+                Underline tag: It is used to set the content underline.
+                <pre class="language-html"><code>&lt;u&gt;Example&lt;/u&gt;
+                </code></pre>
+            </li >
+            <li>
+                Deleted text tag: It is used to represent as deleted text. It cross the text content.
+                <pre class="language-html"><code>&lt;strike&gt;GeeksforGeeks&lt;/strike&gt;
+                </code></pre>
+            </li >
+            <li>
+                Anchor tag: It is used to link one page to another page.
+                <pre class="language-html"><code>&lt;a href="link..."&gt;
+GeeksforGeeks&lt;/a&gt;
+                </code></pre>
+            </li >
+            <li>
+                List tag: It is used to list the content.
+                <pre class="language-html"><code>&lt;li&gt;List item 1&lt;/li&gt;
+&lt;li&gt;List item 2&lt;/li&gt;
+                    </code></pre>
+            </li >
+            <li>
+                Ordered List tag: It is used to list the content in a particular order.
+                <pre class="language-html"><code>&lt;ol&gt;
+    &lt;li&gt;List item 1&lt;/li&gt;
+    &lt;li&gt;List item 2&lt;/li&gt;
+    &lt;li&gt;List item 3&lt;/li&gt;
+    &lt;li&gt;List item 4&lt;/li&gt;
+&lt;/ol&gt;
+                </code></pre>
+            </li >
+            <li>
+                Unordered List tag: It is used to list the content without order.
+                <pre class="language-html"><code>&lt;ul&gt;
+    &lt;li&gt;List item 1&lt;/li&gt;
+    &lt;li&gt;List item 2&lt;/li&gt;
+    &lt;li&gt;List item 3&lt;/li&gt;
+    &lt;li&gt;List item 4&lt;/li&gt;
+&lt;/ul&gt;
+                </code></pre>
+            </li >
+            <li>
+                Scrolling Text tag: It is used to scroll the text or image content.
+                <pre class="language-html"><code>&lt;marquee bgcolor="#cccccc" loop="-1"
+scrollamount="2" width="100%"&gt;
+Example Marquee&lt;/marquee&gt;
+                    </code></pre>
+            </li >
+            <li>
+                Center tag: It is used to set the content into the center.
+                <pre class="language-html"><code><center>Example</center>
+                </code></pre>
+            </li >
+            <li>
+                Font tag: It is used to specify the font size, font color and font-family in html document.
+                <pre class="language-html"><code>&lt;font face="Times New Roman"&gt;Example&lt;/font&gt;
+                </code></pre>
+            </li >
+            <li>
+                Line break tag: It is used to break the line.
+                <pre class="language-html"><code>Example&lt;br&gt;A computer science portal
+                </code></pre>
+            </li >
+            <li>
+                Image tag: It is used to add image element in html document.
+                <pre class="language-html"><code>&lt;img src="exp.jpg" width="40"
+height="40" border="0"&gt;
+                    </code></pre>
+            </li >
+            <li>
+                Link tag: It is used to link the content from external source.
+                <pre class="language-html"><code>&lt;head&gt;
+&lt;link rel="stylesheet" type="text/css" href="style.css"&gt;
+&lt;/head&gt;
+                    </code></pre>
+            </li >
+            <li>
+                Form tag: It is used to create html form for user.
+                <pre class="language-html"><code>&lt;form action="mailto:you@yourdomain.com "&gt;
+Name: &lt;input name="Name" value="" size="80"&gt;&lt;br&gt;
+Email: &lt;input name="Email" value="" size="80"&gt;&lt;br&gt;
+&lt;br&gt;&lt;center&gt;&lt;input type="submit"&gt;&lt;/center&gt;
+&lt;/form&gt;
+                </code></pre>
+            </li >
+            <li>
+                Dropdown option tag: It is used to select an option from a drop-down list.
+                <pre class="language-html"><code>&lt;form method=post action="/cgibin/example.cgi"&gt;
+&lt;center&gt; Select an option:&lt;select&gt;
+&lt;option&gt;option 1&lt;/option&gt;
+&lt;option selected&gt;option 2&lt;/option&gt;
+&lt;option&gt;option 3&lt;/option&gt;
+&lt;/form&gt;
+                </code></pre>
+            </li >
+        
+
+        </ol>
+    </div>
+
+</body>
+
+</html>
